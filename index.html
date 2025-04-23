@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>LIFF Hello World</title>
+      <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+      </head>
+      <body>
+        <h1 id="message">Loading...</h1>
+
+          <script>
+              async function main() {
+                    await liff.init({ liffId: "YOUR_LIFF_ID" });
+                          document.getElementById("message").innerText = "Hello World";
+                              }
+                                  main();
+                                    </script>
+                                    </body>
+                                    </html>
